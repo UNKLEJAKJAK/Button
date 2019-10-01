@@ -26,7 +26,7 @@ void loop() {
   buttonState = digitalRead(buttonPin);
 
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
-  if (buttonState == LOW) {
+  if (buttonState == HIGH) {
     // turn LED on:
     digitalWrite(ledPin, HIGH);
   } else {

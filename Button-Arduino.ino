@@ -1,5 +1,5 @@
 /*
-  Buttin turns on/off led when pressed 
+  Button turns on/off led when pressed 
 
   - LED attached from pin 13 to ground
   - pushbutton attached to pin 2 from +5V

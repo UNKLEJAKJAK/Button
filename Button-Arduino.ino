@@ -2,14 +2,14 @@
   Button turns on/off led when pressed 
 
   - LED attached from pin 13 to ground
-  - pushbutton attached to pin 2 from +5V
+  - push button attached to pin 2 from +5V
   - 10K resistor attached to pin 2 from ground
 
 */
 
 // constants won't change. They're used here to set pin numbers:
 const int buttonPin = 2;     // the number of the pushbutton pin
-const int ledPin =  14;      // the number of the LED pin
+const int ledPin =  13;      // the number of the LED pin
 
 // variables will change:
 int buttonState = 0;         // variable for reading the pushbutton status

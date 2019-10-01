@@ -16,9 +16,9 @@ int buttonState = 0;         // variable for reading the pushbutton status
 
 void setup() {
   // initialize the LED pin as an output:
-  pinMode(ledPin, INPUT);
+  pinMode(ledPin, OUTPUT);
   // initialize the pushbutton pin as an input:
-  pinMode(buttonPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
 }
 
 void loop() {
